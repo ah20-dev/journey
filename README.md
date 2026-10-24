@@ -1,7 +1,5 @@
 # Personal Portfolio
 
-A dependency-free, responsive portfolio for GitHub Pages.
-
 Live URL: https://ah20-dev.github.io/journey/
 
 ## Editing
