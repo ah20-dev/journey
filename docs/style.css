@@ -32,3 +32,7 @@ body{-webkit-user-select:none;user-select:none}input,textarea,[contenteditable="
 
 /* On phones, wrap whole words instead of automatic hyphenation. */
 @media(max-width:600px){.intro p,.entry-body>p:not(.tagline):not(.stack),.current>p:not(.project-timeframe),.feature-note p,.mep p{-webkit-hyphens:none;hyphens:none;word-break:normal;overflow-wrap:normal}}
+
+/* Compact ToolScout demo card */
+.toolscout-video{display:block;width:100%;height:auto;border-radius:4px;background:#182b24}.current .tool-visual{margin:18px 0;padding:12px 16px}.current .flow{padding:12px 0 2px}.current .feature-bottom{justify-content:flex-end}.toolscout-video:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+@media(max-width:600px){.current .tool-visual{padding:10px}.current .flow{gap:4px;padding:10px 0 0}.current .flow>span{font-size:14px}.current .flow small{font-size:10px}}
